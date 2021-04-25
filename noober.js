@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', async function() {
   
   // Create a variable for product data
 
-  let rideRequest = rides.json
+  let rideRequest = json
   console.log(rideRequest)
 
   // Loop through the data
