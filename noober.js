@@ -66,7 +66,7 @@ window.addEventListener('DOMContentLoaded', async function() {
       </div>
     </div>`
 
-    )}
+      )}
     else if(passengerNumber>3){
       element.insertAdjacentHTML(`beforeend`,
 
