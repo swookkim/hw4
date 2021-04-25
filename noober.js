@@ -40,10 +40,10 @@ window.addEventListener('DOMContentLoaded', async function() {
       <span>Noober Purple</span>
     </h1>
 
-    <div class="border-4 border-gray-900 p-4 my-4 text-left">
+    <div class="border-4 border-purple-900 p-4 my-4 text-left">
       <div class="flex">
         <div class="w-1/2">
-          <h2 class="text-2xl py-1">Foghorn Leghorn</h2>
+          <h2 class="text-2xl py-1">`${passengerDetail.first} ${passengerDetail.last}`</h2>
           <p class="font-bold text-gray-600">(312) 555-1212</p>
         </div>
         <div class="w-1/2 text-right">
@@ -78,7 +78,7 @@ window.addEventListener('DOMContentLoaded', async function() {
       <div class="border-4 border-gray-900 p-4 my-4 text-left">
         <div class="flex">
           <div class="w-1/2">
-            <h2 class="text-2xl py-1">Foghorn Leghorn</h2>
+            <h2 class="text-2xl py-1">`${passengerDetail.first} ${passengerDetail.last}`</h2>
             <p class="font-bold text-gray-600">(312) 555-1212</p>
           </div>
           <div class="w-1/2 text-right">
@@ -112,7 +112,7 @@ window.addEventListener('DOMContentLoaded', async function() {
       <div class="border-4 border-gray-900 p-4 my-4 text-left">
         <div class="flex">
           <div class="w-1/2">
-            <h2 class="text-2xl py-1">Foghorn Leghorn</h2>
+            <h2 class="text-2xl py-1">`${passengerDetail.first} ${passengerDetail.last}`</h2>
             <p class="font-bold text-gray-600">(312) 555-1212</p>
           </div>
           <div class="w-1/2 text-right">
