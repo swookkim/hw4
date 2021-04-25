@@ -7,7 +7,7 @@ window.addEventListener('DOMContentLoaded', async function() {
   
   // 🔥 start here: write the recipe (algorithm), then write the code
   
-  // Create a variable for product data
+  // Create a variable for the product data
   let rideRequest = json
 
   // Loop through the data
