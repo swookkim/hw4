@@ -18,9 +18,9 @@ window.addEventListener('DOMContentLoaded', async function() {
     let passengerPhone = rideRequest[i].passengerDetails.phoneNumber
     let passengerNumber = rideRequest[i].numberOfPassengers
     let dropoffAddress = rideRequest[i].dropoffLocation.address
-    let dropoffCityStateZip = `${rideRequest[i].dropoffLocation.city}, ${rideRequest[i].dropoffLocation.sated} ${rideRequest[i].dropoffLocation.zip}`
+    let dropoffCityStateZip = `${rideRequest[i].dropoffLocation.city}, ${rideRequest[i].dropoffLocation.state} ${rideRequest[i].dropoffLocation.zip}`
     let pickupAddress = rideRequest[i].pickupLocation.address
-    let pickupCityStateZip = `${rideRequest[i].pickupLocation.city}, ${rideRequest[i].pickupLocation.sated} ${rideRequest[i].pickupLocation.zip}`
+    let pickupCityStateZip = `${rideRequest[i].pickupLocation.city}, ${rideRequest[i].pickupLocation.state} ${rideRequest[i].pickupLocation.zip}`
     // Dectermine the service level
     let serviceLevel = ``
       if(rideRequest[i].purpleRequested == true){
