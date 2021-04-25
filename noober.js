@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', async function() {
   for (i=0; i<rideRequest.length; i++){
 
     // Create a variable to store each data point
-    let passengerDetail = rideRequest[i].passengerDetail
+    let passengerName = rideRequest[i].passengerDetail.fisrt+` `+rideRequest[i].passengerDetail.last
     let passengerNumber = rideRequest[i].numberOfPassengers
     let dropoffLocation = rideRequest[i].dropoffLocation
     let pickupLocation = rideRequest[i].pickupLocation
