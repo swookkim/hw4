@@ -76,7 +76,6 @@ window.addEventListener('DOMContentLoaded', async function() {
         </div>
       </div>
     </div>`
-    
     )
 
   }
