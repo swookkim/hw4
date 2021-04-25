@@ -35,12 +35,12 @@ window.addEventListener('DOMContentLoaded', async function() {
     if(serviceLevel == `Noober Purple`){
       element.insertAdjacentHTML(`beforeend`,
 
-    `<h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+     `<h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
       <i class="fas fa-car-side"></i>
       <span>Noober Purple</span>
-    </h1>
+     </h1>
 
-    <div class="border-4 border-purple-900 p-4 my-4 text-left">
+     <div class="border-4 border-purple-900 p-4 my-4 text-left">
       <div class="flex">
         <div class="w-1/2">
           <h2 class="text-2xl py-1">`${passengerDetail.first} ${passengerDetail.last}`</h2>
@@ -64,18 +64,17 @@ window.addEventListener('DOMContentLoaded', async function() {
           <p>Chicago, IL 60603</p>
         </div>
       </div>
-    </div>`
-
-      )}
+     </div>`
+    )}
     else if(passengerNumber>3){
       element.insertAdjacentHTML(`beforeend`,
 
-      `<h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+       `<h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
         <i class="fas fa-car-side"></i>
         <span>Noober XL</span>
-      </h1>
+       </h1>
   
-      <div class="border-4 border-gray-900 p-4 my-4 text-left">
+       <div class="border-4 border-gray-900 p-4 my-4 text-left">
         <div class="flex">
           <div class="w-1/2">
             <h2 class="text-2xl py-1">`${passengerDetail.first} ${passengerDetail.last}`</h2>
@@ -99,17 +98,17 @@ window.addEventListener('DOMContentLoaded', async function() {
             <p>Chicago, IL 60603</p>
           </div>
         </div>
-      </div>`
+       </div>`
       )}
     else {
       element.insertAdjacentHTML(`beforeend`,
 
-      `<h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+       `<h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
         <i class="fas fa-car-side"></i>
         <span>Noober X</span>
-      </h1>
+       </h1>
   
-      <div class="border-4 border-gray-900 p-4 my-4 text-left">
+       <div class="border-4 border-gray-900 p-4 my-4 text-left">
         <div class="flex">
           <div class="w-1/2">
             <h2 class="text-2xl py-1">`${passengerDetail.first} ${passengerDetail.last}`</h2>
@@ -133,7 +132,7 @@ window.addEventListener('DOMContentLoaded', async function() {
             <p>Chicago, IL 60603</p>
           </div>
         </div>
-      </div>`
+       </div>`
       )}
   
   }
