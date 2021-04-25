@@ -7,4 +7,15 @@ window.addEventListener('DOMContentLoaded', async function() {
   
   // 🔥 start here: write the recipe (algorithm), then write the code
   
+  // Create a variable for product data
+
+  let productData = 
+
+  // Loop through the data
+
+    // Create a variable to store each data point
+
+    // Create a variable for HTML element that we will add to the page
+
+    // Insert HTML into the page, using the product data 
 })
