@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', async function() {
   let rideRequest = json
 
   // Loop through the data
-  for (i=0, i<rideRequest.length, i++){
+  for (i=0; i<rideRequest.length; i++){
 
     // Create a variable to store each data point
     let passengerDetail = rideRequest[i].passengerDetail
