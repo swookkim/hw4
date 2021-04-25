@@ -74,7 +74,7 @@ window.addEventListener('DOMContentLoaded', async function() {
 
        `<h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
         <i class="fas fa-car-side"></i>
-        <span>Noober XL</span>
+        <span>Noober <span class = "text-3xl"> XL </span>
        </h1>
   
        <div class="border-4 border-gray-900 p-4 my-4 text-left">
