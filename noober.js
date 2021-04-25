@@ -32,7 +32,7 @@ window.addEventListener('DOMContentLoaded', async function() {
 
     // Insert HTML into the page, using the product data
     
-    if(ServiceLevel == `Noober Purple`){
+    if(serviceLevel == `Noober Purple`){
       element.insertAdjacentHTML(`beforeend`,`
 
     <h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
