@@ -97,8 +97,8 @@ window.addEventListener('DOMContentLoaded', async function() {
           </div>
           <div class="w-1/2">
             <div class="text-sm font-bold text-gray-600">DROPOFF</div>
-            <p>123 Main St</p>
-            <p>Chicago, IL 60603</p>
+            <p>${dropoffAddress}</p>
+            <p>${dropoffCityStateZip}</p>
           </div>
         </div>
        </div>`
