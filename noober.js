@@ -49,7 +49,7 @@ window.addEventListener('DOMContentLoaded', async function() {
         </div>
         <div class="w-1/2 text-right">
           <span class="rounded-xl bg-gray-600 text-white p-2">
-            2 passengers
+            ${passengerNumber} passengers
           </span>
         </div>
       </div>
@@ -83,7 +83,7 @@ window.addEventListener('DOMContentLoaded', async function() {
           </div>
           <div class="w-1/2 text-right">
             <span class="rounded-xl bg-gray-600 text-white p-2">
-              2 passengers
+            ${passengerNumber} passengers
             </span>
           </div>
         </div>
@@ -117,7 +117,7 @@ window.addEventListener('DOMContentLoaded', async function() {
           </div>
           <div class="w-1/2 text-right">
             <span class="rounded-xl bg-gray-600 text-white p-2">
-              2 passengers
+            ${passengerNumber} passengers
             </span>
           </div>
         </div>
