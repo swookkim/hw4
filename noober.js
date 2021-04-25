@@ -63,7 +63,7 @@ window.addEventListener('DOMContentLoaded', async function() {
     </div>`
     
     )
-    
+
   }
   )}
 
