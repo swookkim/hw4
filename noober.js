@@ -21,6 +21,7 @@ window.addEventListener('DOMContentLoaded', async function() {
     let dropoffCityStateZip = `${rideRequest[i].dropoffLocation.city}, ${rideRequest[i].dropoffLocation.sated} ${rideRequest[i].dropoffLocation.zip}`
     let pickupAddress = rideRequest[i].pickupLocation.address
     let pickupCityStateZip = `${rideRequest[i].pickupLocation.city}, ${rideRequest[i].pickupLocation.sated} ${rideRequest[i].pickupLocation.zip}`
+    // Defining the service level
     let serviceLevel = ``
       if(rideRequest[i].purpleRequested == true){
       serviceLevel = `Noober Purple`
