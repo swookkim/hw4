@@ -18,7 +18,8 @@ window.addEventListener('DOMContentLoaded', async function() {
     let passengerNumber = rideRequest[i].numberOfPassengers
     let dropoffLocation = rideRequest[i].dropoffLocation
     let pickupLocation = rideRequest[i].pickupLocation
-    let serviceLevel = if (rideRequest[i].purpleRequested == true){
+    let serviceLevel = ``
+      if(rideRequest[i].purpleRequested == true){
       serviceLevel = `Noober Purple`
       } else if(passengerNumber>3){
       serviceLevel = `Noober XL`  
