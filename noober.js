@@ -33,9 +33,9 @@ window.addEventListener('DOMContentLoaded', async function() {
     // Insert HTML into the page, using the product data
     
     if(serviceLevel == `Noober Purple`){
-      element.insertAdjacentHTML(`beforeend`,`
+      element.insertAdjacentHTML(`beforeend`,
 
-    <h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+    `<h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
       <i class="fas fa-car-side"></i>
       <span>Noober Purple</span>
     </h1>
@@ -68,9 +68,9 @@ window.addEventListener('DOMContentLoaded', async function() {
 
     )}
     else if(passengerNumber>3){
-      element.insertAdjacentHTML(`beforeend`,`
+      element.insertAdjacentHTML(`beforeend`,
 
-      <h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+      `<h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
         <i class="fas fa-car-side"></i>
         <span>Noober XL</span>
       </h1>
@@ -102,9 +102,9 @@ window.addEventListener('DOMContentLoaded', async function() {
       </div>`
       )}
     else {
-      element.insertAdjacentHTML(`beforeend`,`
+      element.insertAdjacentHTML(`beforeend`,
 
-      <h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+      `<h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
         <i class="fas fa-car-side"></i>
         <span>Noober X</span>
       </h1>
