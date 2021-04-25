@@ -14,11 +14,13 @@ window.addEventListener('DOMContentLoaded', async function() {
   for (i=0; i<rideRequest.length; i++){
 
     // Create a variable to store each data point
-    let passengerName = rideRequest[i].passengerDetails.first+` `+rideRequest[i].passengerDetails.last
+    let passengerName = `${rideRequest[i].passengerDetails.first} ${rideRequest[i].passengerDetails.last}`
     let passengerPhone = rideRequest[i].passengerDetails.phoneNumber
     let passengerNumber = rideRequest[i].numberOfPassengers
-    let dropoffLocation = rideRequest[i].dropoffLocation
-    let pickupLocation = rideRequest[i].pickupLocation
+    let dropoffAddress = rideRequest[i].dropoffLocation.address
+    let dropoffCityStateZip = `${rideRequest[i].dropoffLocation.city}, ${rideRequest[i].dropoffLocation.sated} ${rideRequest[i].dropoffLocation.zip}`
+    let pickupAddress = rideRequest[i].pickupLocation.address
+    let pickupCityStateZip = `${rideRequest[i].pickupLocation.city}, ${rideRequest[i].pickupLocation.sated} ${rideRequest[i].pickupLocation.zip}`
     let serviceLevel = ``
       if(rideRequest[i].purpleRequested == true){
       serviceLevel = `Noober Purple`
